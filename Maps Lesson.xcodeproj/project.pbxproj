@@ -14,6 +14,7 @@
 		733405541BAB2D890061EE8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733405521BAB2D890061EE8B /* LaunchScreen.storyboard */; };
 		7334055F1BAB2D890061EE8B /* Maps_LessonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7334055E1BAB2D890061EE8B /* Maps_LessonTests.swift */; };
 		7334056A1BAB2D890061EE8B /* Maps_LessonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733405691BAB2D890061EE8B /* Maps_LessonUITests.swift */; };
+		733405781BAB390C0061EE8B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733405771BAB390C0061EE8B /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		733405651BAB2D890061EE8B /* Maps LessonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maps LessonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		733405691BAB2D890061EE8B /* Maps_LessonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps_LessonUITests.swift; sourceTree = "<group>"; };
 		7334056B1BAB2D890061EE8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		733405771BAB390C0061EE8B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				733405781BAB390C0061EE8B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		7334053D1BAB2D890061EE8B = {
 			isa = PBXGroup;
 			children = (
+				733405771BAB390C0061EE8B /* CoreLocation.framework */,
 				733405481BAB2D890061EE8B /* Maps Lesson */,
 				7334055D1BAB2D890061EE8B /* Maps LessonTests */,
 				733405681BAB2D890061EE8B /* Maps LessonUITests */,
